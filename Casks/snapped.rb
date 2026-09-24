@@ -15,7 +15,7 @@ cask "snapped" do
   # The app moves other applications' windows through the Accessibility API,
   # which a sandboxed process cannot do, so this is a Developer ID build and
   # never an App Store one.
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Snapped.app"
 
